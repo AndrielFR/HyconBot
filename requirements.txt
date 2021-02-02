@@ -1,0 +1,5 @@
+humanize==3.2.0
+Pyrogram==1.1.13
+pyromod==1.5
+rapidjson==1.0.0
+rich==9.10.0
