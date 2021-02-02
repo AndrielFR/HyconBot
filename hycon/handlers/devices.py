@@ -24,7 +24,20 @@ import json
 from pyrogram import Client, filters
 from pyrogram.types import CallbackQuery, Message
 from pyromod.helpers import ikb
+from .. import COMMANDS_HELP
 from typing import Dict, List
+
+
+COMMANDS_HELP["devices"] = {
+    "name": "Devices",
+    "commands": {
+        "user": {
+            "device <codename>": "Get information about the device and builds with such a code name (if it is officially maintained)."
+        }
+    },
+    "text": "This is the plugin where you can get data about the specific device.",
+    "help": True
+}
 
 
 DEVICES_REPO = 'https://github.com/Hycon-Devices/official_devices/raw/master'
